@@ -24,10 +24,7 @@ public class UserManager {
 	}
 	/**
 	 * 字符串返回值
-	 * @param email
-	 * @param pswd
-	 * @return
-	 */
+	 * @
 	public static String md5Pswd(String email ,String pswd){
 		pswd = String.format("%s#%s", email,pswd);
 		pswd = MathUtil.getMD5(pswd);
